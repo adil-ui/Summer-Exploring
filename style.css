@@ -18,6 +18,9 @@
 button{
     cursor: pointer;
 }
+
+/* *******************************************************     header    ************************************************/
+
 header{
     background-image: url(images/header-img.png);
     background-size: cover;
@@ -115,4 +118,68 @@ h1{
     height: 150px;
 }
 
-  
+/* *******************************************************     categorie    ************************************************/
+
+.categorie{
+    background-image: url(images/hiking.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    padding: 0px 0 100px;
+}
+.categorie_title{
+    text-align: center;
+}
+.categorie_title h2{
+    font-size: 60px;
+    font-family: OpenSansBold;
+    color: #e2a355;
+}
+.categorie_title p{
+    width: 40%;
+    margin: auto;
+    font-size: 24px;
+    color: #776c64;
+    padding: 20px 0 80px;
+}
+.categorie_container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categorie_div{
+    width: 25%;
+    background-color: #7f7770;
+
+}
+.categorie_div img{
+    width: 100%;
+}
+.categorie_text{
+    padding: 30px 20px 40px;
+    color: white;
+}
+.categorie_text h3{
+    font-size: 24px;
+    font-family: OpenSansBold;
+    margin-bottom: 10px;
+}
+.categorie_text p{
+    line-height: 1.5;
+    font-size: 17px;
+}
+.categorie_btn{
+    text-align: center;
+}
+.categorie_btn button{
+    background-color: #7f7770;
+    color: white;
+    font-size: 20px;
+    font-family: OpenSansBold;
+    border: none;
+    padding: 18px 60px;  
+    border-radius: 50px;
+    margin-top: 50px; 
+    letter-spacing: 5px;
+}
